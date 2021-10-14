@@ -1,17 +1,27 @@
-.text {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    align-content: center;
-}
-
 .text img {
-    width: 100%;
+    width: 50%;
 }
 
-.main {
-    background-color: white;
+@media screen and (max-width: 800px) {
+    
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        align-content: center;
+    }
+    
+    .text img {
+        width: 100%;
+    }
+    
+    .main {
+        background-color: white;
+    }
+
+    
 }
