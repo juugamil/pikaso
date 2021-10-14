@@ -42,6 +42,10 @@
         object-fit: contain;
     }
 
+    .logo img {
+        width: 30vw;
+    }
+
 
 
 }
