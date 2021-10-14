@@ -8,6 +8,10 @@
     align-content: center;
 }
 
+.text img {
+    width: 100%;
+}
+
 .main {
     background-color: white;
 }
