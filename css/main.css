@@ -115,6 +115,10 @@ pre {
         align-self: center;
     }
 
+    .image {
+        flex: 100%;
+    }
+
     .logo {
         flex: 50%;
         object-fit: contain;
