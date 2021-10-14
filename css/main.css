@@ -70,6 +70,7 @@
     }
 
     .sub-card {
+        background-color: var(--brand-color);
         height: 25vh;
     }
 
