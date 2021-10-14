@@ -116,7 +116,15 @@ pre {
     }
 
     .image {
+        display: flex;
+        position: relative;
         flex: 100%;
+        align-self: center;
+        align-content: center;
+    }
+
+    .image img {
+        width: 100%;
     }
 
     .logo {
