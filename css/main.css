@@ -3,16 +3,6 @@
     --brand-color-2: #440505;
   }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    align-content: center;
-}
-
 .main {
     background-color: white;
 }
@@ -26,13 +16,28 @@
     .card {
         display: flex;
         height: .5vh;
+        background-color: var(--brand-color);
+    }
+
+    .card-burg {
+        display: flex;
+        height: .5vh;
+        background-color: var(--brand-color-2);
+    }
+
+    .card-blk {
+        display: flex;
+        height: .5vh;
+        background-color: black;
     }
 
     .hero {
         display: flex;
         height: 1vh;
         background-size: cover;
+        background-image: url();
     }
+
 
 
 }
