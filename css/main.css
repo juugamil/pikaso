@@ -69,20 +69,20 @@ pre {
     .cards {
         color: white;
         display: flex;
-        height: 50vh;
+        height: auto;
         background-color: var(--brand-color);
     }
 
     .cards-burg {
         color: white;
         display: flex;
-        height: 50vh;
+        height: auto;
         background-color: var(--brand-color-2);
     }
 
     .cards-blk {
         flex: 100%;
-        height: 5ovh;
+        height: auto;
         background-color: black;
     }
 
