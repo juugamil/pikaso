@@ -36,6 +36,11 @@
         background-color: black;
     }
 
+    .footer {
+        background-color: black;
+        height: 25vh;
+    }
+
     .hero {
         display: flex;
         flex: 100%;
@@ -64,6 +69,9 @@
         flex: 100%;
     }
 
+    .sub-card {
+        height: 25vh;
+    }
 
 
 }
