@@ -17,6 +17,7 @@
 	}
 
     .cards {
+        color: white;
         display: flex;
         height: 50vh;
         background-color: var(--brand-color);
