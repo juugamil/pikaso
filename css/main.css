@@ -101,6 +101,7 @@ pre {
         background-image: url(/img/hero-image.png);
         background-position: center center;
         color: rgba(255, 255, 255, 0.9);
+        z-index: 0;
     }
 
     .hero-overlay{
@@ -127,6 +128,7 @@ pre {
     .navigation {
         position: fixed;
         flex: 100%;
+        z-index: 2;
     }
 
     .sub-card {
