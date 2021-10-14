@@ -1,3 +1,8 @@
+:root {
+    --brand-color: #d50000;
+    --brand-color-2: #440505;
+  }
+
 .text {
     display: flex;
     flex-direction: column;
@@ -10,4 +15,32 @@
 
 .main {
     background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+	body {
+		font-size: 18px;
+	}
+
+    .card {
+        display: flex;
+        height: .5vh;
+    }
+
+    .hero {
+        display: flex;
+        height: 1vh;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+	body {
+		font-size: 16px;
+	}
+
 }
