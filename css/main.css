@@ -18,19 +18,19 @@
 
     .card {
         display: flex;
-        height: .50vh;
+        height: 50vh;
         background-color: var(--brand-color);
     }
 
     .card-burg {
         display: flex;
-        height: .50vh;
+        height: 50vh;
         background-color: var(--brand-color-2);
     }
 
     .card-blk {
         flex: 100%;
-        height: .5ovh;
+        height: 5ovh;
         background-color: black;
     }
 
