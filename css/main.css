@@ -16,19 +16,19 @@
 		font-size: 18px;
 	}
 
-    .card {
+    .cards {
         display: flex;
         height: 50vh;
         background-color: var(--brand-color);
     }
 
-    .card-burg {
+    .cards-burg {
         display: flex;
         height: 50vh;
         background-color: var(--brand-color-2);
     }
 
-    .card-blk {
+    .cards-blk {
         flex: 100%;
         height: 5ovh;
         background-color: black;
