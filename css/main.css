@@ -100,12 +100,11 @@ pre {
         background-size: cover;
         background-image: url(/img/hero-image.png);
         background-position: center center;
-        color: rgba(255, 255, 255, 0.9);
         z-index: 0;
     }
 
     .hero-overlay{
-        color: rgba(255, 255, 255, 0.9);
+        background: rgba(0, 0, 0, 0.5);
         position: relative;
         z-index: 1;
     }
