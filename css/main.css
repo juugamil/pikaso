@@ -31,6 +31,7 @@
     .hero {
         display: flex;
         height: 1vh;
+        background-size: cover;
     }
 
 
