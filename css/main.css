@@ -69,6 +69,7 @@ pre {
     .cards {
         color: white;
         display: flex;
+        flex-direction: column;
         height: auto;
         background-color: var(--brand-color);
     }
@@ -76,12 +77,14 @@ pre {
     .cards-burg {
         color: white;
         display: flex;
+        flex-direction: column;
         height: auto;
         background-color: var(--brand-color-2);
     }
 
     .cards-blk {
         flex: 100%;
+        flex-direction: column;
         height: auto;
         background-color: black;
     }
