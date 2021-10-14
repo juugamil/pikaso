@@ -58,6 +58,11 @@
         width: 30vw;
     }
 
+    .navigation {
+        position: fixed;
+        flex: 100%;
+    }
+
 
 
 }
