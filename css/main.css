@@ -99,7 +99,7 @@ pre {
         background-size: cover;
         background-image: url(/img/hero-image.png);
         background-position: center center;
-        background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3));
+        box-shadow:inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
     }
 
     .hero-text {
