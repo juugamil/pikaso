@@ -33,12 +33,19 @@
 
     .hero {
         display: flex;
+        flex: 100%;
         height: 1vh;
         background-size: cover;
         background-image: url();
     }
 
+    .hero-text {
+        flex: 100%;
+        justify-content: center;
+    }
+
     .logo {
+        flex: 50%;
         object-fit: contain;
     }
 
