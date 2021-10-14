@@ -1,3 +1,13 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-content: center;
+}
+
 .text img {
     width: 50%;
 }
