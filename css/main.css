@@ -91,10 +91,17 @@ pre {
         background-color: black;
     }
 
+    .f-link {
+        display: flex;
+        width: 50%;
+    }
+
     .footer {
+        display: flex;
+        flex-direction: row;
         background-color: black;
         color: white;
-        height: 25vh;
+        height: 20vh;
     }
 
     .hero {
@@ -150,7 +157,7 @@ pre {
     .sub-card {
         background-color: var(--brand-color);
         color: white;
-        height: 20vh;
+        height: 25vh;
         padding: 5%;
     }
 
