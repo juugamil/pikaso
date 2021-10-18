@@ -150,7 +150,7 @@ pre {
     .sub-card {
         background-color: var(--brand-color);
         color: white;
-        height: 25vh;
+        height: 20vh;
         padding: 5%;
     }
 
