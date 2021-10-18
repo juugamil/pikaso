@@ -53,12 +53,12 @@ pre {
 
 /* Hover Styles */
 a {
-    text-decoration: none !important; 
+    text-decoration: none !important;
     color: var(--brand-color) !important;
 }
 
 a:link {
-    text-decoration: none !important; 
+    text-decoration: none !important;
     color: var(--brand-color) !important;
 }
 
@@ -286,6 +286,35 @@ form {
 
 @media only screen and (max-width: 768px) {
 
+    /* Link Styles*/
+    /* Hover Styles */
+    a {
+        text-decoration: none !important;
+        color: white !important;
+    }
+
+    a:link {
+        text-decoration: none !important;
+        color: white !important;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: white !important;
+    }
+
+    a:hover {
+        text-decoration: underline !important;
+        color: var(--brand-color-2) !important;
+    }
+
+    a:active {
+        text-decoration: underline !important;
+        color: var(--brand-color-2) !important;
+    }
+
+
+    /* Custom CSS */
     body {
         display: flex;
         flex-direction: column;
