@@ -72,6 +72,7 @@ pre {
         flex-direction: column;
         height: auto;
         background-color: var(--brand-color);
+        padding: 5%;
     }
 
     .cards-burg {
@@ -80,6 +81,7 @@ pre {
         flex-direction: column;
         height: auto;
         background-color: var(--brand-color-2);
+        padding: 5%;
     }
 
     .cards-blk {
@@ -149,6 +151,7 @@ pre {
         background-color: var(--brand-color);
         color: white;
         height: 25vh;
+        padding: 5%;
     }
 
 
