@@ -103,6 +103,7 @@ pre {
         background-color: black;
         color: white;
         height: 20vh;
+        padding: 5%;
     }
 
     .footer-links {
@@ -166,6 +167,11 @@ pre {
         color: white;
         height: 25vh;
         padding: 5%;
+    }
+
+    .sub-line {
+        display: flex;
+        justify-content: center;
     }
 
 
