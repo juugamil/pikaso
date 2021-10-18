@@ -171,6 +171,7 @@ pre {
     .sub-line {
         display: flex;
         text-align: center;
+        margin-top: 5%;
     }
 
 
