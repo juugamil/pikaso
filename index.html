@@ -18,7 +18,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous" async defer></script>
-    <script src="/js/animation.js" async defer></script>
+        <script src="/js/mobilenav.js"></script>
 </head>
 
 <body>
@@ -32,14 +32,15 @@
                     <img src="/img/PiKaso-Logo.png">
                 </div>
                 <div class="pages">
-                    <div class="menu-button">
+                    <div class="menu-button" id="menu-button">
                         <img src="/img/menu-icon.png">
                     </div>
-                    <div class="mobile-menu">
-
-                    </div>
-                    <div class="nav-menu">
-
+                    <div class="nav-menu" id="nav-menu">
+                        <div class="nav-link">Home</div>
+                        <div class="nav-link">About</div>
+                        <div class="nav-link">Our Goal</div>
+                        <div class="nav-link">Our Strategy</div>
+                        <div class="nav-link">Contact Us</div>
                     </div>
                 </div>
             </div>
@@ -48,8 +49,8 @@
         <div class="hero-overlay">
             <div class="hero-text">
                 <div class="container">
-                    <h1 style="color: var(--brand-color)">Let your data empower your community</h1>
-                    <h2 style="color: var(--brand-color)">Power of connectivity</h2>
+                    <h1 style="color: var(--brand-color); font-weight: 700;">Let your data empower your community</h1>
+                    <h2 style="color: var(--brand-color); font-weight: 300;">Power of connectivity</h2>
                 </div>
             </div>
         </div>
@@ -136,7 +137,10 @@
                         though your data.</p>
                 </div>
                 <div class="social-icons">
-
+                    <div class="social-icon"><img src="/img/Circle Button-1.png"></div>
+                    <div class="social-icon"><img src="/img/Circle Button-2.png"></div>
+                    <div class="social-icon"><img src="/img/Circle Button-3.png"></div>
+                    <div class="social-icon"><img src="/img/Circle Button-4.png"></div>
                 </div>
             </div>
         </div>
@@ -144,11 +148,15 @@
         <div class="footer">
             <div class="container">
                 <div class="footer-links">
-                    <div class="f-link">Privacy Policy</div>
-                    <div class="f-link">Terms of Service</div>
+                    <div class="f-link">
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="f-link">
+                        <p>Terms of Service</p>
+                    </div>
                 </div>
                 <div class="sub-line">
-                    <h5>© 2021 Pikaso All Rights Reserved.</h5>
+                    <p>© 2021 Pikaso All Rights Reserved.</p>
                 </div>
             </div>
         </div>
