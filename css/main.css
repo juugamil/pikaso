@@ -104,6 +104,11 @@ pre {
         height: 20vh;
     }
 
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+    }
+
     .hero {
         display: flex;
         position: relative;
