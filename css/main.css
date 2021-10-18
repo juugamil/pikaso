@@ -51,8 +51,34 @@ pre {
     line-height: 18.5714px;
 }
 
-/* Custom CSS */
+/* Hover Styles */
+a {
+    text-decoration: none !important; 
+    color: var(--brand-color) !important;
+}
 
+a:link {
+    text-decoration: none !important; 
+    color: var(--brand-color) !important;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    color: var(--brand-color-2) !important;
+}
+
+a:active {
+    text-decoration: underline !important;
+    color: white !important;
+}
+
+
+
+/* Custom CSS */
 .cards {
     color: white;
     display: flex;
