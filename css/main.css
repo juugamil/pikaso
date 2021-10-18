@@ -93,7 +93,6 @@ pre {
 
     .f-link {
         display: flex;
-        width: 50%;
     }
 
     .footer {
@@ -171,7 +170,7 @@ pre {
 
     .sub-line {
         display: flex;
-        justify-content: center;
+        text-align: center;
     }
 
 
