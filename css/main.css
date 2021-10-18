@@ -97,6 +97,7 @@ pre {
     }
 
     .footer {
+        align-items: center;
         display: flex;
         flex-direction: row;
         background-color: black;
@@ -106,6 +107,7 @@ pre {
 
     .footer-links {
         display: flex;
+        justify-content: space-between;
         flex-direction: row;
     }
 
