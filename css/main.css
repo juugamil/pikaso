@@ -57,6 +57,10 @@ pre {
     background-color: white;
 }
 
+.menu-button {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
 
     body {
@@ -111,6 +115,12 @@ pre {
         flex-direction: row;
     }
 
+    .form {
+        display: flex;
+        align-content: center;
+        text-align: center;
+    }
+
     .hero {
         display: flex;
         position: relative;
@@ -155,11 +165,20 @@ pre {
         width: 30vw;
     }
 
+    .menu-button {
+        display: flex;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
     .navigation {
         position: fixed;
         flex: 100%;
         z-index: 2;
     }
+
 
     .sub-card {
         background-color: var(--brand-color);
