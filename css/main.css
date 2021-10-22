@@ -217,7 +217,7 @@ form {
 }
 
 .logo img {
-    width: 12vw;
+    width: 10vw;
     padding: 2%;
 }
 
@@ -282,6 +282,7 @@ form {
     position: fixed;
     width: 100%;
     z-index: 2;
+    align-items: center;
 }
 
 .navigation .container {
