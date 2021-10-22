@@ -9,9 +9,20 @@
 h1 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 24px;
+    text-transform: uppercase;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
+    line-height: 26.4px;
+}
+
+h2 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: bold;
+    font-variant: normal;
+    font-weight: 500 !important;
     line-height: 26.4px;
 }
 
@@ -20,17 +31,27 @@ h3 {
     font-size: 14px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 700;
+    font-weight: 400;
+    line-height: 15.4px;
+}
+
+h4 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300 !important;
     line-height: 15.4px;
 }
 
 p {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     line-height: 20px;
+    padding-top: 2%;
 }
 
 blockquote {
@@ -228,10 +249,14 @@ form {
 }
 
 .nav-link {
-    width: auto;
+    width: 12vw;
     align-items: center;
+    align-content: center;
     display: flex;
     text-align: center;
+    text-transform: uppercase;
+    word-wrap: none;
+    font-weight: 500;
 }
 
 .nav-menu {
@@ -274,6 +299,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-self: center;
 }
 
 .partner {
@@ -289,6 +315,7 @@ form {
     display: flex;
     position: relative;
     justify-content: center;
+    margin: 5%;
 }
 
 .partner-image img {
@@ -322,7 +349,6 @@ form {
 
 .sub-line {
     text-align: center;
-    margin-top: 5%;
 }
 
 .sub-line p {
