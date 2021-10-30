@@ -100,7 +100,10 @@
             <div class="container">
                 <div class="card-text">
                     <p>
-                        With piKaso's Public Private Partnerships "p3" our mission is to foster a sustainable and responsible environment that promotes soical economic growth for all walks of life.  piKaso's P3 ecosystem empowers government and private sector to engage directly with citizens to promote an inclusive and meaningful place to learn, work and prosper as a whole.
+                        With piKaso's Public Private Partnerships "p3" our mission is to foster a sustainable and
+                        responsible environment that promotes soical economic growth for all walks of life. piKaso's P3
+                        ecosystem empowers government and private sector to engage directly with citizens to promote an
+                        inclusive and meaningful place to learn, work and prosper as a whole.
                     </p>
                 </div>
             </div>
@@ -113,9 +116,10 @@
         <div class="cards">
             <div class="container">
                 <div class="card-text">
-                    <h2 style="text-align:center">Vision + Emerging Technologies = 
+                    <h2 style="text-align:center">Vision + Emerging Technologies =
                         <br />SMART"er" Economic Developement</h2>
-                    <p>Our goal is to provide a better citizen experience by understanding the data points that are critical to each individual and community</p>
+                    <p>Our goal is to provide a better citizen experience by understanding the data points that are
+                        critical to each individual and community</p>
                 </div>
             </div>
         </div>
@@ -128,19 +132,19 @@
                     <p></p>
                 </div>
                 <div class="form">
-                    <form>
+                    <form method="post" id="pikaso-form" action="https://sheetdb.io/api/v1/rj9amlcf6a6rn">
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="First name">
+                                <input name="data[firstname]" type="text" class="form-control" placeholder="First name">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name">
+                                <input name="data[lastname]" type="text" class="form-control" placeholder="Last name">
                             </div>
                         </div>
                         <p>&nbsp;</p>
                         <div class="row">
-                            <div class="col"><input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Email"></div>
+                            <div class="col"><input name="data[email]" type="email" class="form-control"
+                                    id="exampleFormControlInput1" placeholder="Email"></div>
                         </div>
                         <p>&nbsp;</p>
                         <button type="submit" class="btn btn-danger">Submit</button>
@@ -188,6 +192,19 @@
     </div>
 
     <script src="" async defer>
+        var form = document.getElementById('pikaso-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method: "POST",
+                body: new FormData(document.getElementById("pikaso-form")),
+            }).then(
+                response => response.json()
+            ).then((html) => {
+                // you can put any JS code here
+                window.location.href = 'https://www.pikaso.us/thank-you.php';
+            });
+        });
     </script>
 </body>
 
