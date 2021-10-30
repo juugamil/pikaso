@@ -191,7 +191,7 @@
 
     </div>
 
-    <script src="" async defer>
+    <script>
         var form = document.getElementById('pikaso-form');
         form.addEventListener("submit", e => {
             e.preventDefault();
